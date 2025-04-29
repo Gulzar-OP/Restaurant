@@ -52,7 +52,7 @@ Restaurant/ │
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/restaurant-website.git
+   git clone https://github.com/Gulzar-OP/Restaurant.git
    
 2. Open the index.html file in your browser.
 
