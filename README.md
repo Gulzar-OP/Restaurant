@@ -1,4 +1,4 @@
-# 🍽️ Restaurant Website - Infinite Loopers
+# 🍽️ Restaurant Project - Infinite Loopers
 
 A basic and responsive **restaurant website** built by **Team Infinite Loopers** using **HTML** and **CSS**. The website includes all essential sections for a restaurant business.
 
