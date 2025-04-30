@@ -47,7 +47,7 @@
   }
   
   .hero {
-    background-image: url("https://www.eatwell101.com/wp-content/uploads/2019/07/ok-chicken-skillet-recipe.jpg"); /* make sure this image is in same folder or give full path */
+    background-image: url("/images/back.jpg"); /* make sure this image is in same folder or give full path */
     background-size: cover;
     background-position: center;
     height: 80vh;
