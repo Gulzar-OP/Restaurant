@@ -11,6 +11,9 @@ body {
     background-color: #fbc3c3;
     color: #333;
 }
+body::-webkit-scrollbar{
+    display: none;
+}
 
 span {
     color: yellow;
@@ -147,6 +150,10 @@ span {
     scroll-snap-type: y mandatory;
     /* Optional: for snap scrolling if needed */
 }
+.gallery-grid::-webkit-scrollbar{
+    display: none ;
+}
+
 
 .gallery-grid p {
     color: white;

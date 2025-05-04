@@ -11,6 +11,9 @@ body {
     background-color: #fbc3c3;
     color: #333;
 }
+body::-webkit-scrollbar{
+    display: none;
+}
 
 .logo span {
     color: yellow;
