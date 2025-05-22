@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>TastyBites - Contact</title>
   <link rel="stylesheet" href="css/contact.css" />
-  
+
 </head>
 
 <body>
@@ -15,14 +15,14 @@
   <header>
     <nav class="navbar">
       <div class="logo">Tasty<span>Bites</span></div>
-      
+
       <ul class="nav-links" id="navLinks">
         <li class="hideOnMobile"><a href="index.html">Home</a></li>
         <li class="hideOnMobile"><a href="menu.html">Menu</a></li>
         <li class="hideOnMobile"><a href="gallery.html">Gallery</a></li>
         <li class="hideOnMobile"><a href="contact.html">Contact</a></li>
         <li class="menu-button" onclick=showSidebar()><a href="#">&#9776</a></li>
-           
+
       </ul>
       <ul class="sidebar">
         <li onclick=hideSidebar()><a href="#">&#10005</a></li>
@@ -40,22 +40,25 @@
 
     <div class="contact-container">
       <!-- Contact Form -->
-      <form>
-        <input type="text" placeholder="Your Name" required />
-        <input type="email" placeholder="Your Email" required />
-        <textarea rows="5" placeholder="Your Message" required></textarea>
-        <button type="submit">Send Message</button>
-      </form>
+      <div class="contact_info">
+        <form>
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <textarea rows="5" placeholder="Your Message" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
 
       <!-- Address & Map -->
       <div class="contact-info">
         <h3>Visit Us</h3>
         <p>Near majar ,Katihar,Bihar, India</p>
         <p>Phone: +91 9661720780</p>
-        <p>Email: gulzarhu88gmail.com</p>
+        <p>Email: <a href="mailto:gulzarhu88@gmail.com">gulzarhu88@gmail.com</a></p>
         <img src="images/map.jpg" alt="Map" />
       </div>
     </div>
+    <div class="faltu"></div>
   </section>
 
   <!-- Footer -->
