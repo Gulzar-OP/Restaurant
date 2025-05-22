@@ -11,13 +11,14 @@ body {
     background-color: #fbc3c3;
     color: #333;
 }
-body::-webkit-scrollbar{
+
+body::-webkit-scrollbar {
     display: none;
 }
 
 .logo span {
     color: yellow;
-    
+
 }
 
 /* Navbar */
@@ -29,7 +30,7 @@ body::-webkit-scrollbar{
     align-items: center;
     background-color: #ff6b6b;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
-    padding: 1rem 2rem;
+    padding: 0.5rem 0.5rem;
 }
 
 /* Sidebar styles */
@@ -89,23 +90,27 @@ body::-webkit-scrollbar{
         width: 100%;
 
     }
-    .ab{
+
+    .ab {
         padding: 0;
         margin: 0;
         color: white;
 
     }
-    .ab p{
+
+    .ab p {
         width: 100%;
         font-size: 1px;
         color: black;
         font-weight: 500;
-        
+
     }
-    .btn{
+
+    .btn {
         margin-bottom: 10px;
     }
-    .about{
+
+    .about {
         width: 100%;
         padding: 0;
         margin-top: 5vh;
@@ -113,6 +118,12 @@ body::-webkit-scrollbar{
         background-color: rgba(255, 255, 255, 0.3);
         box-shadow: 1px 1px 5px black;
         border-radius: 10px;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 }
 
@@ -135,7 +146,7 @@ body::-webkit-scrollbar{
     text-decoration: none;
     color: #fff;
     font-size: 18px;
-    
+
 }
 
 .nav-links a:hover {
@@ -143,6 +154,7 @@ body::-webkit-scrollbar{
     /* text-decoration: underline; */
     font-size: 18px;
 }
+
 /*  */
 /* Hero Section */
 .hero {
@@ -165,9 +177,10 @@ body::-webkit-scrollbar{
 .hero p {
     font-size: 1.5rem;
     margin: 1rem 0;
-    
+
 }
-.hero a{
+
+.hero a {
     text-decoration: none;
     background-color: #ff6b6b;
     color: #fff;
@@ -192,7 +205,7 @@ body::-webkit-scrollbar{
     text-decoration: none;
     font-weight: 700;
     border-radius: 5px;
-    margin-top: 10vh;
+    margin-top: 3vh;
 }
 
 /* About Section */
@@ -204,7 +217,8 @@ body::-webkit-scrollbar{
     width: 100%;
     /* background-color: #fbc3c3; */
 }
-.ab{
+
+.ab {
     width: 100%;
 
 }
@@ -220,7 +234,7 @@ footer {
     color: #fff;
     text-align: center;
     padding: 1rem 0;
-    
+
 }
 
 .typing {

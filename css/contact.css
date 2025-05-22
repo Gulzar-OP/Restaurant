@@ -123,6 +123,11 @@ body::-webkit-scrollbar {
         flex-direction: column;
         height: fit-content;
     }
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
 
 /* contact */

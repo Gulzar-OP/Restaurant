@@ -139,6 +139,11 @@ body::-webkit-scrollbar{
     .sidebar {
         width: 100%;
     }
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
 
 /* gallery */
