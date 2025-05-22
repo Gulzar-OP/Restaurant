@@ -147,7 +147,7 @@ body::-webkit-scrollbar {
 .menu {
     padding: 3rem 2rem;
     text-align: center;
-    background-image: url('/images/back.jpg');
+    background-image: url('images/back.jpg');
     background-size: cover;
     background-position: center;
     color: var(--black);
