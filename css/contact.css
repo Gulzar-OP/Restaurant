@@ -30,7 +30,7 @@ body::-webkit-scrollbar {
     align-items: center;
     background-color: #ff6b6b;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
-    padding: 1rem 2rem;
+    padding: 0.5rem 0.5rem;
 }
 
 /* Sidebar styles */
